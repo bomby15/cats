@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cats</title>
+	<link rel="stylesheet" href="css/styles.css"> 
+</head>
+
+<body>
+	<header>
+	</header>
+	<nav>
+<img src="images/graphic_navbar.png" alt="Cat nav" usemap="#catNav">
+<map name="catNav">
+<area shape="rect" coords="4,25,79,85" href="index.html" alt="home">
+<area shape="rect" coords="82,23,126,85" href="history.html" alt="History">
+<area shape="rect" coords="125,23,218,85" href="description.html" alt="Description">
+<area shape="rect" coords="218,23,297,85" href="characteristics.html" alt="Characteristics">
+<area shape="rect" coords="297,23,355,85" href="temperament.html" alt="Temperament">
+<area shape="rect" coords="355,23,450,85" href="newsletter.html" alt="Newsletter">
+</map>
+
+
+</nav>
+		<main><!-- Placeholder for main content area --> 
+		<div id="container">
+			<p>To find out more, please sign up for our newsletter:</p>
+            <form action="mailto:lori.sheffield@sllboces.org" method="POST">
+            <table>
+                <tr>
+                    <td rowspan="6"><!-- Column 1 -->
+                        <img src="images/cat4.jpg" alt="Cat" width="600" height="800">
+                    </td>
+                    <td><!-- Column 2 -->
+                        <label for="fName">First Name:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- Column 2 -->
+                        <input type="text" name="fName">
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- Column 2 -->
+                        <label for="lName">Last Name:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- Column 2 -->
+                        <input type="text" name="lName">
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- Column 2 -->
+                        <label for="email">Email Address:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- Column 2 -->
+                        <input type="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit" class="frmButton">
+                        <input type="reset" value="Restart" class="frmButton">
+                    </td>
+                </tr>
+            </table>
+        </form>
+ </div>
+	</main> 
+	
+	<footer>
+		<nav class="fnav"> 
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="history.html">History</a></li>
+			<li><a href="description.html">Description</a></li>
+			<li><a href="characteristics.html">Characteristics</a></li>
+			<li><a href="temperament.html">Temperamenrt</a></li>
+			<li><a href="newsletter.html">Newsletter</a></li>
+	</ul>
+	</nav>
+		
+		<h5>&copy; Copyright 2023 Brendan Bombard - Seaway Software Devlopers. All Rights Reserved.</h5>
+		<h5>Last Updated: April 28, 2023</h5>
+	</footer>
+	
+</body>
+</html>
